@@ -19,7 +19,9 @@
     <header>
       <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Outloud</a>
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./img/11.png" width="100" height="50" alt=""
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,8 +35,26 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" href="./features.html">Features</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdown01"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Features</a
+                >
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./features.html#direct"
+                    >Direct Messaging</a
+                  >
+                  <a class="dropdown-item" href="./features.html#group"
+                    >Group Shoutouts</a
+                  >
+                  <a class="dropdown-item" href="./features.html#anon"
+                    >Anonymous Positivity</a
+                  >
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./getstarted.html">Get Started</a>
@@ -47,7 +67,7 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-success navbar-btn" type="submit">
                 Search
               </button>
             </form>
@@ -59,11 +79,11 @@
     <main>
       <div class="jumbotron text-center hero-background-img">
         <h1>Outloud Features</h1>
-        <p class="lead">Share your positive thoughts!</p>
+        <p class="lead">Shoutout your positive thoughts!</p>
         <a href="./getstarted.html" class="btn btn-primary">Get Started</a>
       </div>
       <hr class="featurette-divider" />
-      <div class="container marketing">
+      <div id="direct" class="container marketing">
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Directly message teammates</h2>
@@ -76,7 +96,7 @@
 
         <hr class="featurette-divider" />
 
-        <div class="row featurette">
+        <div id="group" class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">Group shoutouts</h2>
             <p class="lead">
@@ -92,7 +112,7 @@
 
         <hr class="featurette-divider" />
 
-        <div class="row featurette">
+        <div id="anon" class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Anonymous positivity</h2>
             <p class="lead">

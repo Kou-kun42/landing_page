@@ -100,6 +100,18 @@ body {
   margin-bottom: 5em;
 }
 
-a.navbar-brand {
-  font-size: x-large;
+.navbar .navbar-brand {
+  font-size: xx-large;
+  color: rgb(223, 66, 139);
+}
+
+.navbar button {
+  color: rgb(223, 66, 139);
+  border-color: rgb(223, 66, 139);
+}
+
+.navbar-btn:hover {
+  color: #fff;
+  background-color: rgb(223, 66, 139) !important;
+  border-color: rgb(223, 66, 139) !important;
 }
