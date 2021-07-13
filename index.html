@@ -1,235 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Outloud</title>
-    <!-- Bootstrap core CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Outloud!</title>
+        <!-- Bootstrap core CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
 
-    <!-- Custom styles -->
-    <link href="styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"
-            ><img src="./img/11.png" width="100" height="50" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdown01"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Features</a
-                >
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./features.html"
-                    >All Features</a
-                  >
-                  <a class="dropdown-item" href="./features.html#direct"
-                    >Direct Messaging</a
-                  >
-                  <a class="dropdown-item" href="./features.html#group"
-                    >Group Shoutouts</a
-                  >
-                  <a class="dropdown-item" href="./features.html#anon"
-                    >Anonymous Positivity</a
-                  >
+        <!-- Custom styles -->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <nav
+                class="navbar navbar-light bg-light navbar-expand-md fixed-top"
+            >
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"
+                        ><img src="./img/11.png" width="100" height="50" alt=""
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="./features.html"
+                                    id="dropdown01"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >Features</a
+                                >
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        href="./features.html#direct"
+                                        >Direct Messaging</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="./features.html#group"
+                                        >Group Shoutouts</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="./features.html#anon"
+                                        >Anonymous Positivity</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./getstarted.html"
+                                    >Get Started</a
+                                >
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input
+                                class="form-control me-2"
+                                type="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                            />
+                            <button
+                                class="btn btn-outline-success navbar-btn"
+                                type="submit"
+                            >
+                                Search
+                            </button>
+                        </form>
+                    </div>
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./getstarted.html">Get Started</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success navbar-btn" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
+            </nav>
+        </header>
 
-    <main>
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="0"
-            class="active"
-          ></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/2.jpg" />
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>Generate Happiness</h1>
+        <main>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li
+                        data-bs-target="#myCarousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/2.jpg" />
+                        <div class="container">
+                            <div class="carousel-caption text-end">
+                                <h1>Generate Happiness</h1>
+                                <a
+                                    class="btn btn-lg btn-primary"
+                                    href="./features.html"
+                                    role="button"
+                                    >View Features</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/1.jpg" />
+                        <div class="container">
+                            <div class="carousel-caption text-end">
+                                <h1>Communicate Openly</h1>
+                                <a
+                                    class="btn btn-lg btn-primary"
+                                    href="#marketing"
+                                    role="button"
+                                    >Learn More</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/3.png" />
+                        <div class="container">
+                            <div class="carousel-caption text-end">
+                                <h1>Increase Compassion</h1>
+                                <a
+                                    class="btn btn-lg btn-primary"
+                                    href="./getstarted.html"
+                                    role="button"
+                                    >Get Started</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <a
-                  class="btn btn-lg btn-primary"
-                  href="./features.html"
-                  role="button"
-                  >View Features</a
+                    class="carousel-control-prev"
+                    href="#myCarousel"
+                    role="button"
+                    data-bs-slide="prev"
                 >
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/1.jpg" />
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>Communicate Openly</h1>
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
                 <a
-                  class="btn btn-lg btn-primary"
-                  href="#marketing"
-                  role="button"
-                  >Learn More</a
+                    class="carousel-control-next"
+                    href="#myCarousel"
+                    role="button"
+                    data-bs-slide="next"
                 >
-              </div>
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/3.png" />
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>Increase Compassion</h1>
-                <a
-                  class="btn btn-lg btn-primary"
-                  href="./getstarted.html"
-                  role="button"
-                  >Get Started</a
-                >
-              </div>
+
+            <div id="marketing" class="container marketing">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">
+                            Build Bonds.
+                            <span class="text-muted"
+                                >Create long lasting relationships.</span
+                            >
+                        </h2>
+                        <p class="lead">
+                            Build bonds with your peers by letting them know you
+                            care. With Outload!, you're actively encouraged to
+                            compliment others in your team.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="./img/4.png" />
+                    </div>
+                </div>
+
+                <hr class="featurette-divider" />
+
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">
+                            Improve Workflow.
+                            <span class="text-muted"
+                                >Develop more efficient teams.</span
+                            >
+                        </h2>
+                        <p class="lead">
+                            Research shows that a happy team is a productive
+                            team. Build better products, create more compelling
+                            designs, and scale up outcomes by utilizing the easy
+                            to use messaging features of Outloud!
+                        </p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img src="./img/5.jpg" />
+                    </div>
+                </div>
+
+                <hr class="featurette-divider" />
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">
+                            Let people shine.
+                            <span class="text-muted"
+                                >Encourage positive behavior.</span
+                            >
+                        </h2>
+                        <p class="lead">
+                            Let your colleagues know that their hard work isn't
+                            going unnoticed. Show they matter by sending them
+                            shoutouts, publically or anonymously with Outloud!
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="./img/6.jpg" width="500px" />
+                    </div>
+                </div>
+
+                <hr class="featurette-divider" />
             </div>
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#myCarousel"
-          role="button"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#myCarousel"
-          role="button"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
-      </div>
 
-      <div id="marketing" class="container marketing">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">
-              Build Bonds.
-              <span class="text-muted">Create long lasting relationships.</span>
-            </h2>
-            <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <img src="./img/4.png" />
-          </div>
-        </div>
+            <!-- FOOTER -->
+            <footer class="container">
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p>
+                    &copy; 2021 Outloud, LLC &middot;
+                    <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+                </p>
+            </footer>
+        </main>
 
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">
-              Improve Workflow.
-              <span class="text-muted">Develop more efficient teams.</span>
-            </h2>
-            <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img src="./img/5.jpg" />
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">
-              Let people shine.
-              <span class="text-muted">Encourage positive behavior.</span>
-            </h2>
-            <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <img src="./img/6.jpg" width="500px" />
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-      </div>
-
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>
-          &copy; 2020 Outloud, LLC &middot;
-          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
-        </p>
-      </footer>
-    </main>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
